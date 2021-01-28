@@ -1,0 +1,30 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=848 outsize=330 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9917 outsize=4981 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3194 outsize=494 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=8511 outsize=984 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=11494 outsize=4119 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=22339 outsize=5115 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=6745 outsize=1174 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=26542 outsize=15619 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16295 outsize=101466 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=28593 outsize=5639 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7589 outsize=6586 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6948 outsize=810 kw=UNITY_PASS_SHADOWCASTER _NORMALMAP_TANGENT_SPACE _MASKMAP pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7443 outsize=810 kw=_NORMALMAP_TANGENT_SPACE _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+
+Quitting shader compiler process

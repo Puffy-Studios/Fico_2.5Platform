@@ -1,0 +1,80 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Roundbeargames
+{
+    public static class MirrorSetter
+    {
+        public static void SetMirrorParameter(CharacterControl control, HashClassKey key)
+        {
+            MirrorParameterType mirrorParamType = key.MirrorType;
+
+            if (mirrorParamType == MirrorParameterType.idle_mirror)
+            {
+                if (control.GetBool(typeof(RightFootIsForward)))
+                {
+                    ToggleMirror(control, mirrorParamType, true);
+                }
+                else
+                {
+                    ToggleMirror(control, mirrorParamType, false);
+                }
+            }
+
+            if (mirrorParamType == MirrorParameterType.idlepivot_mirror)
+            {
+                if (control.GetBool(typeof(RightFootIsForward)))
+                {
+                    ToggleMirror(control, mirrorParamType, true);
+                }
+                else
+                {
+                    ToggleMirror(control, mirrorParamType, false);
+                }
+            }
+
+            if (mirrorParamType == MirrorParameterType.runstart_mirror)
+            {
+                if (control.GetBool(typeof(RightFootIsForward)))
+                {
+                    ToggleMirror(control, mirrorParamType, true);
+                }
+                else
+                {
+                    ToggleMirror(control, mirrorParamType, false);
+                }
+            }
+
+            if (mirrorParamType == MirrorParameterType.runstop_mirror)
+            {
+                if (control.GetBool(typeof(RightFootIsForward)))
+                {
+                    ToggleMirror(control, mirrorParamType, false);
+                }
+                else
+                {
+                    ToggleMirror(control, mirrorParamType, true);
+                }
+            }
+
+            if (mirrorParamType == MirrorParameterType.standingjump_mirror)
+            {
+                if (control.GetBool(typeof(RightFootIsForward)))
+                {
+                    ToggleMirror(control, mirrorParamType, true);
+                }
+                else
+                {
+                    ToggleMirror(control, mirrorParamType, false);
+                }
+            }
+        }
+
+        static void ToggleMirror(CharacterControl control, MirrorParameterType mirrorParamType, bool toogle)
+        {
+            control.ANIMATOR.SetBool(
+                HashManager.Instance.ArrMirrorParameters[(int)mirrorParamType], toogle);
+        }
+    }
+}
