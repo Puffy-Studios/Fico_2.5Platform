@@ -1,28 +1,2 @@
 Base path: 'C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
-Cmd: compileComputeKernel
-  api=4 insize=9917 outsize=6470 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=11086 outsize=666 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=40407 outsize=35783 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=3707 outsize=1164 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=22339 outsize=5427 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=6745 outsize=695 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=8512 outsize=2926 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16295 outsize=57905 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16295 outsize=82072 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=28593 outsize=1036 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=7443 outsize=810 kw=_NORMALMAP_TANGENT_SPACE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=7443 outsize=142 kw=_NORMALMAP_TANGENT_SPACE _NORMALMAP pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-
-Quitting shader compiler process
