@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float force;
     bool jump = true;
+    bool side = true;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +34,9 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetAxis("Horizontal") < 0)
         {
+            side = false;
             dogAnim.SetBool("run_reverse", true);
+            
         }
         playerRb.velocity = new Vector3(playerRb.velocity.x, playerRb.velocity.y, Input.GetAxis("Horizontal") * speed);
 
