@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 
+
         if (Input.GetAxis("Horizontal") == 0)
         {
             dogAnim.SetBool("run", false);
@@ -44,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
         {
             jump = false;
             playerRb.AddForce(Vector3.up * force);
+            dogAnim.SetTrigger("Jump");
         }
 
 

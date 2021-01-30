@@ -44,6 +44,17 @@ ExportedObj/
 *.VC.db
 *.meta
 
+# UnityBasura
+* -text
+
+*.cs        text eol=lf diff=csharp
+*.shader    text eol=lf
+*.cginc     text eol=lf
+*.hlsl      text eol=lf
+*.compute   text eol=lf
+
+*.meta      text eol=lf
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
